@@ -5,7 +5,6 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
         String nombreCliente = "Tony Stark";
         String tipoCuenta = "Corriente";
-        int cantidadRetiro = 0;
         double saldoDisponible = 1999.99;
         int opcion = 0;
 
@@ -48,14 +47,7 @@ public class Main {
                     break;
                 default:
                     System.out.println("Opcion no válida");
-
             }
-
-
         }
-
-
-
-
     }
 }
